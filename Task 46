@@ -1,0 +1,3 @@
+numbers = [float(input()) for j in range(int(input('Введите количество')))] 
+result = list(map(lambda x,y: x*y, numbers, reversed(numbers)))
+print(result[0:int(len(result)/2)])
